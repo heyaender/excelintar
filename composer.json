@@ -17,7 +17,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "heyaender\\Excelintar\\": "./src/Exelintar"
+            "heyaender\\Excelintar\\": "./src/Excelintar"
         }
     },
     "authors": [
