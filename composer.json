@@ -11,7 +11,8 @@
         "heyaender/excelintar-helper": "*"
     },
     "require-dev": {
-        "phpunit/phpunit": "9.0"
+        "phpunit/phpunit": "9.0",
+        "heyaender/excelintar-helper": "*"
     },
     "license": "MIT",
     "autoload": {
