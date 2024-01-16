@@ -1,21 +1,15 @@
 {
-    "name": "heyaender/exelintar",
-    "description": "Excel Writer untuk PHP yang sangat cepat seperti Halilintar",
-    "keywords": [
-        "php",
-        "excel",
-        "phpexcel",
-        "library",
-        "xls",
-        "xlsx",
-        "export",
-		"spreadsheet",
-		"ms office",
-		"office 2007"
-    ],
+    "name": "heyaender/excelintar",
+    "description": "Exelintar - Excel Writer untuk PHP yang sangat cepat seperti Halilintar.",
     "type": "library",
-    "homepage": "https://github.com/heyaender/excelintar",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrianto Putro",
+            "email": "andri.c.putro@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "heyaender\\Excelintar\\": "./src/Excelintar"
