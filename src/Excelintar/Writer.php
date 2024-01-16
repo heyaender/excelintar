@@ -1,14 +1,14 @@
 <?php
 
-namespace putroandrianto\Excelintar;
+namespace heyaender\Excelintar;
 
-use putroandrianto\Excelintar\Exceptions\Exception;
-use putroandrianto\Excelintar\Exceptions\ExceptionFile;
+use heyaender\Excelintar\Exceptions\Exception;
+use heyaender\Excelintar\Exceptions\ExceptionFile;
 
 /**
  * Class Writer
  *
- * @package putroandrianto\Excelintar
+ * @package heyaender\Excelintar
  */
 class Writer
 {

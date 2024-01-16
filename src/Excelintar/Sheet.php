@@ -1,17 +1,17 @@
 <?php
 
-namespace putroandrianto\Excelintar;
+namespace heyaender\Excelintar;
 
-use putroandrianto\Excelintar\Exceptions\Exception;
-use putroandrianto\Excelintar\Exceptions\ExceptionAddress;
-use putroandrianto\Excelintar\Exceptions\ExceptionFile;
-use putroandrianto\Excelintar\Exceptions\ExceptionRangeName;
-use putroandrianto\Excelintar\Interfaces\InterfaceSheetWriter;
+use heyaender\Excelintar\Exceptions\Exception;
+use heyaender\Excelintar\Exceptions\ExceptionAddress;
+use heyaender\Excelintar\Exceptions\ExceptionFile;
+use heyaender\Excelintar\Exceptions\ExceptionRangeName;
+use heyaender\Excelintar\Interfaces\InterfaceSheetWriter;
 
 /**
  * Class Sheet
  *
- * @package putroandrianto\Excelintar
+ * @package heyaender\Excelintar
  */
 class Sheet implements InterfaceSheetWriter
 {

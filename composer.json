@@ -1,5 +1,5 @@
 {
-    "name": "putroandrianto/excelintar",
+    "name": "heyaender/excelintar",
     "description": "Excel Writer untuk PHP yang sangat cepat seperti Halilintar",
     "type": "library",
     "require": {
@@ -11,7 +11,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Putroandrianto\\Excelintar\\": "./src/Exelintar"
+            "Heyaender\\Excelintar\\": "./src/Exelintar"
         }
     },
     "authors": [

@@ -1,11 +1,11 @@
 <?php
 
-namespace putroandrianto\Excelintar\Exceptions;
+namespace heyaender\Excelintar\Exceptions;
 
 /**
  * Class Exception
  *
- * @package putroandrianto\Excelintar
+ * @package heyaender\Excelintar
  */
 class ExceptionAddress extends Exception
 {

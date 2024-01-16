@@ -1,11 +1,11 @@
 <?php
 
-namespace putroandrianto\Excelintar;
+namespace heyaender\Excelintar;
 
 /**
  * Class Style
  *
- * @package putroandrianto\Excelintar
+ * @package heyaender\Excelintar
  */
 class Style
 {
