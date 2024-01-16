@@ -12,12 +12,12 @@
     },
     "require-dev": {
         "phpunit/phpunit": "9.0",
-        "heyaender/excelintar-helper": "*"
+        "heyaender/excelintar-reader": "*"
     },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Heyaender\\Excelintar\\": "./src/Exelintar"
+            "heyaender\\Excelintar\\": "./src/Exelintar"
         }
     },
     "authors": [
