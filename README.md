@@ -1,5 +1,5 @@
 # excelintar
  
 ```
-composer require heyaender/excelintar
+composer require putroandrianto/excelintar
 ```

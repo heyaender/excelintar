@@ -1,11 +1,11 @@
 <?php
 
-namespace heyaender\Excelintar\Exceptions;
+namespace putroandrianto\Excelintar\Exceptions;
 
 /**
  * Class Exception
  *
- * @package heyaender\Excelintar
+ * @package putroandrianto\Excelintar
  */
 class Exception extends \RuntimeException
 {

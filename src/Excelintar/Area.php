@@ -1,8 +1,8 @@
 <?php
 
-namespace heyaender\Excelintar;
+namespace putroandrianto\Excelintar;
 
-use heyaender\Excelintar\Exceptions\Exception;
+use putroandrianto\Excelintar\Exceptions\Exception;
 
 /**
  * Class Area
@@ -36,7 +36,7 @@ use heyaender\Excelintar\Exceptions\Exception;
  * @method Area applyUnlock(?bool $unlock = true)
  * @method Area applyHide(?bool $hide = true)
  *
- * @package heyaender\Excelintar
+ * @package putroandrianto\Excelintar
  */
 class Area
 {

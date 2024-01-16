@@ -1,17 +1,17 @@
 <?php
 
-namespace heyaender\Excelintar;
+namespace putroandrianto\Excelintar;
 
-use heyaender\ExcelintarHelper\Helper;
-use heyaender\Excelintar\Exceptions\Exception;
-use heyaender\Excelintar\Exceptions\ExceptionFile;
-use heyaender\Excelintar\Exceptions\ExceptionRangeName;
-use heyaender\Excelintar\Interfaces\InterfaceBookWriter;
+use putroandrianto\ExcelintarHelper\Helper;
+use putroandrianto\Excelintar\Exceptions\Exception;
+use putroandrianto\Excelintar\Exceptions\ExceptionFile;
+use putroandrianto\Excelintar\Exceptions\ExceptionRangeName;
+use putroandrianto\Excelintar\Interfaces\InterfaceBookWriter;
 
 /**
  * Class Excel
  *
- * @package heyaender\Excelintar
+ * @package putroandrianto\Excelintar
  */
 class Excel implements InterfaceBookWriter
 {

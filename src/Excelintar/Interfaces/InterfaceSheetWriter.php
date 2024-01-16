@@ -1,6 +1,6 @@
 <?php
 
-namespace heyaender\Excelintar\Interfaces;
+namespace putroandrianto\Excelintar\Interfaces;
 
 interface InterfaceSheetWriter
 {

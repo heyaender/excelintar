@@ -1,13 +1,13 @@
 <?php
 
-namespace heyaender\Excelintar;
+namespace putroandrianto\Excelintar;
 
-use heyaender\Excelintar\Exceptions\Exception;
+use putroandrianto\Excelintar\Exceptions\Exception;
 
 /**
  * Class WriterBuffer
  *
- * @package heyaender\Excelintar
+ * @package putroandrianto\Excelintar
  */
 class WriterBuffer
 {

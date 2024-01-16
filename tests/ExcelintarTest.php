@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace heyaender\Excelintar;
+namespace putroandrianto\Excelintar;
 
 use PHPUnit\Framework\TestCase;
-use heyaender\ExcelintarReader\Excel as ExcelReader;
+use putroandrianto\ExcelintarReader\Excel as ExcelReader;
 
 final class ExcelintarTest extends TestCase
 {
@@ -299,7 +299,7 @@ final class ExcelintarTest extends TestCase
 
         // Write value to automerged cells
         $area->setValue('A2:K2', $title, $headerStyle);
-        $area->setValue('E3:I3', 'heyaender/fast-excel-writer', ['hyperlink' => 'https://github.com/heyaender483/fast-excel-writer', 'align' => 'center']);
+        $area->setValue('E3:I3', 'putroandrianto/fast-excel-writer', ['hyperlink' => 'https://github.com/putroandrianto483/fast-excel-writer', 'align' => 'center']);
 
         $area
             ->setValue('J4', 'Date:', ['text-align' => 'right'])
