@@ -9,7 +9,6 @@
             "email": "andri.c.putro@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "heyaender\\Excelintar\\": "./src/Excelintar"
