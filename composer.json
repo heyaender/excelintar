@@ -3,7 +3,7 @@
     "description": "Excel Writer untuk PHP yang sangat cepat seperti Halilintar",
     "type": "library",
     "require": {
-        "php": "7.4"
+        "php": ">=7.4"
     },
     "require-dev": {
         "phpunit/phpunit": "9.0"
@@ -11,7 +11,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Putroandrianto\\Excelintar\\": "src/Exelintar/"
+            "Putroandrianto\\Excelintar\\": "./src/Exelintar"
         }
     },
     "authors": [
