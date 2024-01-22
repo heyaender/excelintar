@@ -1392,9 +1392,15 @@ class Excel implements InterfaceBookWriter
             }
         }
 
-        header('Cache-Control: max-age=0');
-        header('Content-Type: application/vnd.ms-excel');
+        header('Cache-Control: public');
+        header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+        header('Content-Length: ' . filesize($tmpFile));
+        header('Last-Modified: ' . gmdate('D, d M Y H:i:s') . ' GMT');
         header('Content-Disposition: attachment; filename="' . $name . '"');
+        header('Accept-Ranges: none');
+        header('X-RateLimit-Limit: 60');
+        header('X-RateLimit-Remaining: 59');
+        header('Access-Control-Allow-Origin: *');
 
         readfile($tmpFile);
     }
